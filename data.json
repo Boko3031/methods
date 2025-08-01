@@ -1,0 +1,27 @@
+[
+    {
+        "name": "nar",
+        "age": 45,
+        "school": 10000
+    },
+    {
+        "name": "sar",
+        "age": 90,
+        "school": 11
+    },
+    {
+        "name": "maaraa",
+        "age": 23,
+        "school": 11
+    },
+    {
+        "name": "sarangerel",
+        "age": 15,
+        "school": 11
+    },
+    {
+        "name": "narangerel",
+        "age": 35,
+        "school": 11
+    }
+]
