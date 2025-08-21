@@ -4,7 +4,6 @@
 // });
 // console.log(res);
 
-
 // 2const numbers = ["khulan", "mulan"];
 // const res = numbers.map((a) => {
 //   return "hiii " + a;
@@ -38,13 +37,12 @@
 // console.log(map2);
 
 // 7const nums = [1, null, 5, undefined, 10];
-// const filterednums = nums
-//   .filter((a) => {
-//     return a;
-//   })
-//   .map((b) => {
-//     return b * 10;
-//   });
+// const filterednums = nums.filter((a) => {
+//   return a;
+// })
+// .map((b) => {
+//   return b * 10;
+// });
 // console.log(filterednums);
 
 // 8const test = [
@@ -114,30 +112,30 @@
 // });
 // console.log(person);
 
-const students = [
-  { name: "Anu", scores: [80, 90, 100] },
-  { name: "Temka", scores: [50, 60, 70] },
-  { name: "Saraa", scores: [95, 100, 90] },
-  { name: "Baatar", scores: [40, 50, 60] },
-];
-const studentscore = students.map((student, index) => {
-  let score = 0;
-  student.scores.forEach((element, index) => {
-    score = score + element;
-  });
-  return {
-    ...student,
-    score: score / student.scores.length,
-  };
-});
-const a = studentscore.map((amount, indexOf) => {
-  return amount.score >= 80
-    ? { ...amount, status: "Excellent" }
-      : amount.score < 79 && amount.score > 60
-      ?{ ...amount, status: "Passed" }
-    : { ...amount, status: "Failed" }
-});
-console.log(a);
+// const students = [
+//   { name: "Anu", scores: [80, 90, 100] },
+//   { name: "Temka", scores: [50, 60, 70] },
+//   { name: "Saraa", scores: [95, 100, 90] },
+//   { name: "Baatar", scores: [40, 50, 60] },
+// ];
+// const studentscore = students.map((student, index) => {
+//   let score = 0;
+//   student.scores.forEach((element, index) => {
+//     score = score + element;
+//   });
+//   return {
+//     ...student,
+//     score: score / student.scores.length,
+//   };
+// });
+// const a = studentscore.map((amount, indexOf) => {
+//   return amount.score >= 80
+//     ? { ...amount, status: "Excellent" }
+//     : amount.score < 79 && amount.score > 60
+//     ? { ...amount, status: "Passed" }
+//     : { ...amount, status: "Failed" };
+// });
+// console.log(a);
 
 const users = [
   { name: "Alice", age: 22, hobbies: ["reading", "coding", "hiking"] },
